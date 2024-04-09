@@ -27,14 +27,20 @@
             </div>
         </div>
         <div class="buttons">
-            <button class="call">
-                <img src="./assets/icons/phone-call.png" alt="phone-call">
-                <a href="tel:+998940394540" class="ng-binding">CALL</a>
-            </button>
-            <button>
-                <img src="./assets/icons/send.png" alt="send">
-                <a href="sms:+998940394540">SMS</a>
-            </button>
+            <a href="tel:+998940394540">
+                <div class="call">
+                    <img src="./assets/icons/phone-call.png" alt="phone-call">
+                    <p>CALL</p>
+                </div>
+            </a>
+
+            <a href="sms:+998940394540" class="sms">
+                <div>
+                    <img src="./assets/icons/send.png" alt="send">
+                    
+                    <p>SMS</p>
+                </div>
+            </a>
         </div>
     </header>
 
@@ -43,48 +49,45 @@
             <div class="info-box">
                 <ul class="list">
                     <li class="item">
-                        
                         <img src="./assets/icons/mortarboard.png" alt="">
-                          <div class="d-flex justify-content-center">
-                            <h4 ng-bind-html="view.bio|nl2br" class="ng-binding">O'zbekiston Milliy Universiteti talabasi</h4>
-                          </div>
 
+                        <div class="d-flex justify-content-center">
+                            <h4 ng-bind-html="view.bio|nl2br" class="ng-binding">O'zbekiston Milliy Universiteti talabasi</h4>
+                        </div>
                     </li>
 
                     <li class="item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-                          </svg>
+                        </svg>
 
-                          <div class="">
-                              <a href="tel:+998940394540" class="ng-binding">+998 94 039 45 40</a>
-                              <small>Mobile</small>
-                          </div>
+                        <div class="">
+                            <a href="tel:+998940394540" class="">+998 94 039 45 40</a>
+                            <small>Mobile</small>
+                        </div>
 
                     </li>
 
                     <li class="item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-                          </svg>
+                        </svg>
 
-                          <div class="">
-                            <a href="mailto:https://t.me/ibrohim_hamid" target="_newLink" class="ng-binding">https://t.me/ibrohim_hamid</a>
-                          </div>
-
+                        <div class="">
+                            <a href="mailto:https://ibrohimabdumominov91@gmail.com" class="">ibrohimabdumominov91@gmail.com</a>
+                        </div>
                     </li>
 
                     <li class="item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
                             <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
-                          </svg>
+                        </svg>
 
-                          <div class="">
+                        <div class="">
                             <p>Muqumiy MFY 19</p>
                             <p>Nurafshon, Toshkent Viloyati</p>
                             <p>Uzbekistan</p>
-                          </div>
-
+                        </div>
                     </li>
                 </ul>
 
