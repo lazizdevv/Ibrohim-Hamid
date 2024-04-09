@@ -1,0 +1,131 @@
+@use "../global";
+@use "../utils/mixins" as mix;
+@use "../utils/variables" as var;
+
+main{
+    font-size: 14px;
+    width: 100%;
+
+    .container{
+        box-shadow: 0 -5px 40px 7px rgba(0,0,0,0.08);
+
+        .info-box{
+            .list{
+                padding-left: 0;
+
+                img{
+                    width: 25px;
+                    height: 25px;
+                }
+
+                h4{
+                    color: #323032;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 1.3;
+                    text-align: center;
+                }
+                .item{
+                    display: flex;
+                    gap: 20px;
+                    align-items:start;
+                    font-size: 14px;
+                    font-weight: 400;
+                    padding: 20px 0 20px 20px;
+                    border-bottom: 1px solid #82848f70;
+                    width: 100%;
+
+                    svg{
+                        color: #82848f;
+                    }
+
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        text-align: left;
+                        gap: 0;
+                        
+                        p{
+                            margin-bottom: 0;
+                        }
+
+                        small{
+                            font-size: 13px;
+                            padding-top: 5px;
+                            line-height: 1;
+                            font-weight: 400;
+                            color: #82848f;
+                        }
+                    }
+
+                    a{
+                        font-size: 14px;
+                        line-height: 1.3;
+                        font-weight: 400;
+                        color: #323032;
+                        transition: all 0.25s ease;
+                        text-decoration: none;
+                    }
+
+                    a:hover{
+                        transform: scale(1.05);
+                        color: #007bff;
+                    }
+                }
+            }
+        }
+
+        .links{
+            text-align: center;
+
+            h1{
+                color: #82848f;
+                width: 100%;
+                font-size: 16px;
+                line-height: 1;
+                font-weight: 400;
+                margin: 0;
+                margin-bottom: 40px !important;
+            }
+            .icon-box{
+                display: flex;
+                justify-content: center;
+                gap: 25px;
+                padding: 20px;
+                padding-top: 0;
+
+                a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+                    color: white;
+                }
+
+                a:hover{
+                    transform: scale(1.1);
+                }
+
+                .telegram{
+                    background: white;
+
+                    svg{
+                        color: rgb(0, 136, 204);
+                        width: 36px;
+                        height: 36px;
+                    }
+                }
+
+                .instagram{
+                    background-color:  #C13584;
+                }
+
+                .twitter{
+                    background: rgb(29, 155, 240);
+                }
+            }
+        }   
+    }
+}
