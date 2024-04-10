@@ -62,7 +62,7 @@ main{
                         font-size: 14px;
                         line-height: 1.3;
                         font-weight: 400;
-                        color: #323032;
+                        color: rgb(44, 44, 44);
                         transition: all 0.25s ease;
                         text-decoration: none;
                     }
@@ -124,6 +124,10 @@ main{
 
                 .twitter{
                     background: rgb(29, 155, 240);
+                }
+
+                .myChannel{
+                    background: goldenrod;
                 }
             }
         }   
