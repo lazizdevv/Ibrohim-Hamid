@@ -382,7 +382,7 @@ main .container .links .icon-box .telegram svg {
   height: 36px;
 }
 main .container .links .icon-box .instagram {
-  background-color: #C13584;
+  background: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
 }
 main .container .links .icon-box .twitter {
   background: rgb(29, 155, 240);
